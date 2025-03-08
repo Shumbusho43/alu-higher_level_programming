@@ -28,7 +28,8 @@ class Student:
         Retrieves a dictionary representation of a Student instance.
 
         Args:
-            attrs (list): A list of strings representing attribute names to filter.
+            attrs (list): A list of strings representing attribute names
+                          to filter.
 
         Returns:
             dict: A dictionary representation of the Student instance.
