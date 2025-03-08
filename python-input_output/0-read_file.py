@@ -9,8 +9,3 @@ def read_file(filename=""):
     """
     with open(filename, mode='r', encoding='utf-8') as file:
         print(file.read(), end='')
-
-# Example usage (not part of the function)
-if __name__ == "__main__":
-    read_file("my_file_0.txt")
-
