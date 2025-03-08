@@ -28,7 +28,8 @@ class Student:
         Retrieves a dictionary representation of a Student instance.
 
         Args:
-            attrs (list): A list of strings representing attribute names to filter.
+            attrs (list): A list of strings representing attribute names
+                          to filter.
 
         Returns:
             dict: A dictionary representation of the Student instance.
@@ -44,7 +45,8 @@ class Student:
 
     def reload_from_json(self, json):
         """
-        Replaces all attributes of the Student instance with values from a dictionary.
+        Replaces all attributes of the Student instance with values from
+        a dictionary.
 
         Args:
             json (dict): A dictionary containing attribute names and values.
