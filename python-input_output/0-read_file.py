@@ -1,6 +1,11 @@
-# Task 0: Read a file
+#!/usr/bin/python3
+"""
+Function that reads a file and prints its content.
+"""
+
+
 def read_file(filename=""):
-    """Reads a text file (UTF8) and prints it to stdout."""
-    with open(filename, "r", encoding="utf-8") as file:
-        print(file.read(), end="")
+    """Reads a file and prints its contents to stdout"""
+    with open(filename, "r", encoding="utf-8") as f:
+        print(f.read(), end="")
 
